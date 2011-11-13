@@ -1,5 +1,5 @@
-TWITTER BOOTSTRAP
-=================
+TWITTER BOOTSTRAP (SASS) FOR MAGENTO
+====================================
 
 Bootstrap is Twitter's toolkit for kickstarting CSS for websites, apps, and more. It includes base CSS styles for typography, forms, buttons, tables, grids, navigation, alerts, and more.
 
@@ -9,72 +9,15 @@ To get started -- checkout http://twitter.github.com/bootstrap!
 Usage
 -----
 
-You can use the SASS Twitter Bootstrap by dropping the compiled CSS into any new project and start cranking.
+You can load the bootstrap css as git submodule into your magento installation using modman (http://code.google.com/p/module-manager).
 
-Because SASS always outputs standard css, just link to the final output like normal:
-
-    <link rel="stylesheet" type="text/css" href="bootstrap-1.4.0.css">
-
-For more info, refer to the docs!
+Simply run modman twitter-bootstrap checkout git://github.com/wuerml/sass-twitter-bootstrap.git
 
 
 Basic modification
 ------------------
 
-You can learn more about SASS at:
-
-    http://sass-lang.com
-
-SASS runs as a local GEM on your system. You can run "sass --watch lib/bootstrap.scss:bootstrap-1.3.0.css" 
-
-
-Versioning
-----------
-
-For transparency and insight into our release cycle, and for striving to maintain backwards compatibility, Bootstrap will be maintained under the Semantic Versioning guidelines as much as possible.
-
-Releases will be numbered with the follow format:
-
-`<major>.<minor>.<patch>`
-
-And constructed with the following guidelines:
-
-* Breaking backwards compatibility bumps the major
-* New additions without breaking backwards compatibility bumps the minor
-* Bug fixes and misc changes bump the patch
-
-For more information on SemVer, please visit http://semver.org/.
-
-
-Bug Tracker
------------
-
-Have a bug? Please create an issue here on GitHub!
-
-https://github.com/twitter/bootstrap/issues
-
-
-Mailing List
-------------
-
-Have a question? Ask on our mailing list!
-
-twitter-bootstrap@googlegroups.com
-
-http://groups.google.com/group/twitter-bootstrap
-
-
-Developers
-----------
-
-We have included a Rakefile with convenience methods for working with the bootstrap library.
-
-+ **build** - `rake build`
-This will run the less compiler on the bootstrap lib and generate a bootstrap.css and bootstrap.min.css file.
-The lessc compiler is required for this command to run.
-
-+ **watch** - `rake watch`
-This is a convenience method for watching your Sass files and automatically building them whenever you save.
+added modman config for standard magento installation 
 
 
 Authors
@@ -108,11 +51,17 @@ The Twitter Bootstrap was lovingly converted to CSS by:
 
 And [others](https://github.com/jlong/sass-twitter-bootstrap/contributors)
 
+Magento injection
+-----------------
 
-Copyright and License
----------------------
+**Achim Rosenhagen**
 
-Copyright 2011 Twitter, Inc.
++ http://twitter.com/wuerml
++ http://github.com/wuerml
+
+
+License
+-------
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
