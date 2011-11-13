@@ -11,7 +11,7 @@ Usage
 
 You can load the bootstrap css as git submodule into your magento installation using modman (http://code.google.com/p/module-manager).
 
-Simply run modman twitter-bootstrap checkout git://github.com/wuerml/sass-twitter-bootstrap.git
+Simply run modman twitter-bootstrap clone git://github.com/wuerml/sass-twitter-bootstrap.git
 
 
 Basic modification

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+	<default>
+		<reference name="head">
+			<!-- Adding twitter-bootstrap-files -->
+			<action method="addCss"><stylesheet>css/bootstrap.min.css</stylesheet></action>
+		</reference>
+	</default>
+
+</layout>

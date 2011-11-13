@@ -1,2 +1,5 @@
 # injecting twitter-bootstrap in magento installation (base/default)
 bootstrap-1.4.0.css    skin/frontend/base/default/css/bootstrap.min.css
+
+# adding xml-config to magento
+magento/local.xml app/design/frontend/default/default/layout/local.xml
