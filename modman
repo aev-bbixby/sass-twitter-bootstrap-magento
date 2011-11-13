@@ -2,4 +2,5 @@
 bootstrap-1.4.0.css    skin/frontend/base/default/css/bootstrap.min.css
 
 # adding xml-config to magento
-magento/local.xml app/design/frontend/default/default/layout/local.xml
+# this one is commented, because you will want to use your own local.xml with further modifications
+#magento/local.xml app/design/frontend/default/default/layout/local.xml
